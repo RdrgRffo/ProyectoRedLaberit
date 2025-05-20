@@ -1,0 +1,32 @@
+{
+  "scanTimestamp" : 1747726485822,
+  "scannedNetworkTarget" : "10.0.0.0/24",
+  "devices" : [ {
+    "ip" : "10.0.0.1",
+    "hostname" : "10.0.0.1",
+    "openPorts" : [ ],
+    "services" : { },
+    "mac" : "12:34:56:78:9A:BC",
+    "manufacturer" : null,
+    "os" : null,
+    "riskLevel" : null
+  }, {
+    "ip" : "10.0.0.4",
+    "hostname" : "practicacesar.internal.cloudapp.net",
+    "openPorts" : [ 135, 139, 445, 1433, 3389, 5985 ],
+    "services" : {
+      "5985" : "http (Microsoft HTTPAPI httpd 2.0 SSDP/UPnP)",
+      "135" : "msrpc (Microsoft Windows RPC)",
+      "1433" : "tcpwrapped",
+      "139" : "netbios-ssn (Microsoft Windows netbios-ssn)",
+      "445" : "microsoft-ds",
+      "3389" : "ms-wbt-server (Microsoft Terminal Services)"
+    },
+    "mac" : null,
+    "manufacturer" : null,
+    "os" : "Microsoft Windows Server 2019 (Accuracy: 100%)",
+    "riskLevel" : null
+  } ],
+  "scanEngineInfo" : null,
+  "deviceCount" : 2
+}
